@@ -16,7 +16,7 @@ while (i<=n)
 
     while (j<=i)
     {
-        cout<<count;
+        cout<<count<<" ";
         count = count +1;
         j = j+1;
 
