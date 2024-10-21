@@ -7,18 +7,23 @@ cout<<"Enter number : ";
 int n;
 cin>>n;
 
-int  i =  1;
+int  i =  2;
 
 while (i<=n)
 {
-    int j = n+1;
-    while (j < 1)
-    {
-        cout<<j<<" ";
-        j = j - 1;
-    }
-    cout<<endl;
-    i = i + 1;
+   int j =i-1 ;
+
+   while (j>=1)
+   {
+    cout<<j<<" ";
+    j = j-1;
+
+   }
+
+   cout<<endl;
+   i  = i+1;
+
+    
 }
  
 return 0; 
