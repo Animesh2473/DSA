@@ -11,10 +11,10 @@ int i=1;
 while (i<=n)
 {
 
-int j=1;
+int j=i;
 while (j<=2*i-1){
 
-cout<<j<<" "<<endl;
+cout<<j<<" ";
 j = j+1;
 
 }
