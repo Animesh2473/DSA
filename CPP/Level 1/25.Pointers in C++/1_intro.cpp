@@ -11,6 +11,11 @@ int main()
 
  cout<<"Adress of num is "<<&num<<endl;
  
+int *ptr = &num;
+
+
+ cout<<"Value of *ptr is "<<num<<endl;
+ 
  
 return 0;
 }
