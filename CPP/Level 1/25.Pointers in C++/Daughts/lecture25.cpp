@@ -42,7 +42,10 @@ cout<<"*q : "<< (*p)++ <<endl;
 *p = *p + 1;
 cout<<"*p : "<<*p<<endl; //Daught
 
-//
+// imp concept
+cout<<"p : "<<p<<endl; 
+p = p +1;
+cout<<"p : "<<p<<endl; 
 
  
 return 0;
