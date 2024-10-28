@@ -18,7 +18,7 @@ int number[15];
 cout<<"Value at 1 index is "<<number[0]<<endl;
 cout<<"Value at 2 index is "<<number[1]<<endl;
 cout<<"Value at 15 index is "<<number[14]<<endl;
-
+ 
 //Acesing more than an index of an array
 cout<<"Value at 16 index is "<<number[15]<<endl;
 cout<<"Value at 19 index is "<<number[20]<<endl;
@@ -52,7 +52,7 @@ for (int i = 0; i < n; i++)
     
 cout<<"Value at "<<i +1<<" index is "<<third[i]<<endl;
 }
-
+ 
 
 cout<<"Everything is fine "<<endl;
 return 0;
