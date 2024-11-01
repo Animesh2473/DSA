@@ -3,7 +3,9 @@ using namespace std;
 // This is a class
 class Hero {
 // Below are the Properties of the class.
-int health;
+
+public:
+int Health;
 char Atribute[0 ];
 }; 
 int main()
@@ -12,8 +14,10 @@ int main()
 
  Hero Animesh;
 
- cout<<"Size of Animesh is "<<sizeof(Animesh)<<endl;
+ //cout<<"Size of Animesh is "<<sizeof(Animesh)<<endl;
 
+cout<<"Health is:"<<Animesh.Health<<endl; 
+cout<<"Atribute is:"<<Animesh.Atribute<<endl; 
  
  
 return 0;
