@@ -2,7 +2,14 @@
 using namespace std;
 
 //Hold
-void printArray(){
+void printArray(int arr[],int size){
+
+    
+    for (int i = 0; i < size; i++)
+    {
+    cout << arr[i] << " ";
+    }
+    cout<<"Printing DONE"<<endl;
 
 }
 
@@ -14,11 +21,13 @@ int main()
 cout<<"Array 1"<<endl;
 
 int number[15];
-
+// Accesing an element
 cout<<"Value at 1 index is "<<number[0]<<endl;
 cout<<"Value at 2 index is "<<number[1]<<endl;
 cout<<"Value at 15 index is "<<number[14]<<endl;
- 
+//using functions
+printArray(third, 15);
+
 //Acesing more than an index of an array
 cout<<"Value at 16 index is "<<number[15]<<endl;
 cout<<"Value at 19 index is "<<number[20]<<endl;

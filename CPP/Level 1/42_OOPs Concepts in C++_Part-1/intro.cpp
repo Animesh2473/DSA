@@ -6,7 +6,7 @@ class Hero {
 
 public:
 int Health;
-char Atribute[0 ];
+char Atribute[0];
 }; 
 int main()
 {
@@ -18,7 +18,5 @@ int main()
 
 cout<<"Health is:"<<Animesh.Health<<endl; 
 cout<<"Atribute is:"<<Animesh.Atribute<<endl; 
- 
- 
 return 0;
 }
