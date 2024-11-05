@@ -5,6 +5,7 @@ using namespace std;
 void printArray(int arr[],int size){
 
     
+    cout<<"Printing Started"<<endl;
     for (int i = 0; i < size; i++)
     {
     cout << arr[i] << " ";
@@ -26,7 +27,7 @@ cout<<"Value at 1 index is "<<number[0]<<endl;
 cout<<"Value at 2 index is "<<number[1]<<endl;
 cout<<"Value at 15 index is "<<number[14]<<endl;
 //using functions
-printArray(third, 15);
+printArray(number, 10);
 
 //Acesing more than an index of an array
 cout<<"Value at 16 index is "<<number[15]<<endl;
